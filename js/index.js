@@ -5,6 +5,7 @@
 
 var animal = prompt("Digite o nome de um animal");
 var animalSelected = "";
+animal = animal.toLowerCase();
 
 if(animal === "gato") {
   animalSelected = "CAT";
